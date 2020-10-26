@@ -22,3 +22,19 @@ body {
         font-size: 5rem;
     }
 }
+
+<style type="text/css">
+@media screen and (min-width: 600px) {
+ #mobile-share {
+ visibility: hidden;
+ clear: both;
+ float: left;
+ margin: 10px auto 5px 20px;
+ width: 28%;
+ display: none;
+ }
+}
+</style>
+<div id="mobile-share">
+<a href="whatsapp://send?text=https://muthuvel83.pythonanywhere.com/" data-action="share/whatsapp/share">Share in Whatsapp</a>
+</div>
